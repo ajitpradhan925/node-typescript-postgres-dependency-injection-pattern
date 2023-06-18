@@ -13,6 +13,7 @@ import errorHandler from '../middlewares/errorHandler';
 
 @controller('/users')
 export default class UserController extends BaseHttpController {
+  
   constructor(@inject(UserService) private userService: UserService) {
     super();
   }
