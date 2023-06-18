@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "types": ["reflect-metadata"],
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "dist",
+      "sourceMap": true,
+      "strict": true,
+      "esModuleInterop": true,
+    },
+    "include": [
+      "src",
+      "custom.d.ts"
+    ],
+    "exclude": ["node_modules"]
+  }
+  
